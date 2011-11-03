@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/lshort/german
+# catalog-date 2008-04-20 19:53:04 +0200
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-lshort-german
 Version:	20080420
 Release:	1
@@ -34,6 +40,7 @@ TeXLive lshort-german package.
 %doc %{_texmfdistdir}/doc/latex/lshort-german/l2kurz.pdf
 %doc %{_texmfdistdir}/doc/latex/lshort-german/l2kurz.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-german/l2kurz2.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -44,3 +51,5 @@ TeXLive lshort-german package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
