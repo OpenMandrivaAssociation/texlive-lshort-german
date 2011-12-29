@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.doc
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive lshort-german package.
@@ -40,7 +38,6 @@ TeXLive lshort-german package.
 %doc %{_texmfdistdir}/doc/latex/lshort-german/l2kurz.pdf
 %doc %{_texmfdistdir}/doc/latex/lshort-german/l2kurz.tex
 %doc %{_texmfdistdir}/doc/latex/lshort-german/l2kurz2.pdf
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,5 +48,3 @@ TeXLive lshort-german package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
