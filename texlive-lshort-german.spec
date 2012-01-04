@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-lshort-german
 Version:	20080420
-Release:	1
+Release:	2
 Summary:	German version of A Short Introduction to LaTeX2e: LaTeX2e-Kurzbeschreibung
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/german
