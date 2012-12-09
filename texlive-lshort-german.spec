@@ -48,3 +48,18 @@ TeXLive lshort-german package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080420-2
++ Revision: 753471
+- Rebuild to reduce used resources
+
+* Mon Nov 07 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080420-1
++ Revision: 727176
+- texlive-lshort-german
+- texlive-lshort-german
+- texlive-lshort-german
+- texlive-lshort-german
+- texlive-lshort-german
+
