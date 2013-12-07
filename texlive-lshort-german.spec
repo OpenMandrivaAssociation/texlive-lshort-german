@@ -7,7 +7,7 @@
 Name:		texlive-lshort-german
 Epoch:		1
 Version:	3.0
-Release:	2
+Release:	3
 Summary:	German version of A Short Introduction to LaTeX2e: LaTeX2e-Kurzbeschreibung
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/german
