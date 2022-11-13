@@ -1,19 +1,13 @@
-# revision 28270
-# category Package
-# catalog-ctan /info/lshort/german
-# catalog-date 2012-11-15 13:07:37 +0100
-# catalog-license opl
-# catalog-version 3.0
 Name:		texlive-lshort-german
 Epoch:		1
-Version:	3.0c
-Release:	2
+Version:	55643
+Release:	1
 Summary:	German version of A Short Introduction to LaTeX2e: LaTeX2e-Kurzbeschreibung
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/lshort/german
 License:	OPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -47,7 +41,7 @@ TeXLive lshort-german package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
