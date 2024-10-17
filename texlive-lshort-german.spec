@@ -4,7 +4,7 @@ Version:	70740
 Release:	1
 Summary:	German version of A Short Introduction to LaTeX2e: LaTeX2e-Kurzbeschreibung
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/lshort/german
+URL:		https://www.ctan.org/tex-archive/info/lshort/german
 License:	OPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lshort-german.doc.r%{version}.tar.xz
